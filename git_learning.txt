@@ -1,0 +1,5 @@
+Gitis a version control system
+-easily recover files
+-who introduced an issue and when?
+-Roll back to previously working state
+
