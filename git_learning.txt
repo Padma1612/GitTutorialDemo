@@ -18,6 +18,7 @@ touch .gitignore
 git diff
 git diff --stage
 git commit -a -m "<msg>"
+git rm filename
 
 11) to check the status of git repository 
 
