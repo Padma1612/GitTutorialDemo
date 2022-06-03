@@ -15,7 +15,9 @@ git clone "<link>"
 git clone "<link>" newname
 touch "<error.log>"
 touch .gitignore
-
+git diff
+git diff --stage
+git commit -a -m "<msg>"
 
 11) to check the status of git repository 
 
