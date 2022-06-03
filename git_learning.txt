@@ -19,6 +19,17 @@ git diff
 git diff --stage
 git commit -a -m "<msg>"
 git rm filename
+git mv filename rename_filename
+git rm --cached filename---it will untrack the file 
+git log -p
+git log -p -3
+git log --stat
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days/weeks/months/years
+git restore --staged filename
+git checkout -- filename
 
 11) to check the status of git repository 
 
