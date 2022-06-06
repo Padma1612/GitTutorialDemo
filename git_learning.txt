@@ -30,6 +30,7 @@ git log --pretty=full
 git log --since=2.days/weeks/months/years
 git restore --staged filename
 git checkout -- filename
+git chechout -f
 
 11) to check the status of git repository 
 
