@@ -31,6 +31,17 @@ git log --since=2.days/weeks/months/years
 git restore --staged filename
 git checkout -- filename
 git chechout -f
+git remote add origin https://github.com/Padma1612/GitTutorialDemo.git
+git remote
+git remote -v
+
+creating SSh
+s1--> ssh-keygen -t rsa -b 4096 -C "1my18mca14@gmail.com"
+s2---> eval "$(ssh-agent -s)"
+s3--> ssh-add ~/.ssh/id_ed25519
+s4---> tail ~/.ssh/id_ed25519.pub
+git push -u origin main
+
 
 11) to check the status of git repository 
 
