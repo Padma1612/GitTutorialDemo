@@ -34,6 +34,9 @@ git chechout -f
 git remote add origin https://github.com/Padma1612/GitTutorialDemo.git
 git remote
 git remote -v
+git config global alias.st status
+
+
 
 creating SSh
 s1--> ssh-keygen -t rsa -b 4096 -C "1my18mca14@gmail.com"
