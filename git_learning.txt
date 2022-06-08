@@ -10,14 +10,14 @@ git add --a
 git add filename
 git commit -m "message"
 git log
-rm -rf .git
+rm -rf .git(removes git repo)
 git clone "<link>"
 git clone "<link>" newname
 touch "<error.log>"
 touch .gitignore
 git diff
 git diff --stage
-git commit -a -m "<msg>"
+git commit -a -m "<msg>" (skip staging)
 git rm filename
 git mv filename rename_filename
 git rm --cached filename---it will untrack the file 
@@ -35,6 +35,8 @@ git remote add origin https://github.com/Padma1612/GitTutorialDemo.git
 git remote
 git remote -v
 git config global alias.st status
+git checkout -b 'develop'  (creating new branch)
+git checkout main
 
 
 
