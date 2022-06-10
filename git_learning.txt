@@ -37,6 +37,13 @@ git remote -v
 git config global alias.st status
 git checkout -b 'develop'  (creating new branch)
 git checkout main
+git merge <branchname>
+git branch -v    -----gives the latest commit with hash
+git branch --merged  -----shows already merged branches
+git branch --no-merged  -----shoes not merged branches
+git branch -d <branch name>   ---gives error if <branchname> is not merged
+git branch -D <branch name>     --- deletes if branch is not merged also
+
 
 
 
